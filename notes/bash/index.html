@@ -27,45 +27,46 @@ English
 </span></span><span style=display:flex><span>  echo <span style=color:#e6db74>&#34;String is not empty&#34;</span>
 </span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
 </span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Install Qemu</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  echo -e <span style=color:#e6db74>&#34;\n
-</span></span></span></code></pre></div></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; update packages\n"
-sudo apt update -y && sudo apt upgrade -y
-sleep 5
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; update timezone\n"
-sudo timedatectl set-timezone Asia/Manila
-date
-sleep 3
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; install qemu agent\n"
-sudo apt install qemu-guest-agent -y
-sleep 2
-sudo systemctl enable qemu-guest-agent
-sleep 2
-sudo systemctl restart qemu-guest-agent
-sleep 2
-sudo systemctl status qemu-guest-agent
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body><p>&ndash; done\n"</p><pre tabindex=0><code></code></pre></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Install Docker</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
 </span></span></span><span style=display:flex><span><span style=color:#75715e></span>
-</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n
-</span></span></span></code></pre></div></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; install docker dependencies\n"
-sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
-sleep 5
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; add GPG Key\n"
-sudo curl -fsSL <a href=https://download.docker.com/linux/ubuntu/gpg target=_blank rel=noopener>https://download.docker.com/linux/ubuntu/gpg</a> | sudo apt-key add -
-sleep 5
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; add docker repository\n"
-sudo add-apt-repository &ldquo;deb [arch=amd64] <a href=https://download.docker.com/linux/ubuntu target=_blank rel=noopener>https://download.docker.com/linux/ubuntu</a> $(lsb_release -cs) stable&rdquo;
-sleep 5
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; install docker-ce\n"
-sudo apt install docker-ce -y
-sudo systemctl restart docker
-sudo systemctl enable docker
-sleep 3
-sudo systemctl status docker
-sleep 3
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body>&ndash; add user to docker group\n"
-sudo usermod -aG docker ${USER}
-sleep 3
-echo -e &ldquo;\n</div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body></div></div><div class=card><div class=card-body><p>&ndash; done\n"</p><pre tabindex=0><code></code></pre></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Install Portainer</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker run -d <span style=color:#ae81ff>\
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n update packages\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo apt update -y <span style=color:#f92672>&amp;&amp;</span> sudo apt upgrade -y
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>5</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n update timezone\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo timedatectl set-timezone Asia/Manila
+</span></span><span style=display:flex><span>  date
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n install qemu agent\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo apt install qemu-guest-agent -y
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>  sudo systemctl enable qemu-guest-agent
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>  sudo systemctl restart qemu-guest-agent
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>  sudo systemctl status qemu-guest-agent
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n done\n&#34;</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Install Docker</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n install docker dependencies\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo apt install apt-transport-https ca-certificates curl software-properties-common -y 
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>5</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n add GPG Key\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>5</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n add docker repository\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo add-apt-repository <span style=color:#e6db74>&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu </span><span style=color:#66d9ef>$(</span>lsb_release -cs<span style=color:#66d9ef>)</span><span style=color:#e6db74> stable&#34;</span>
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>5</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n install docker-ce\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo apt install docker-ce -y
+</span></span><span style=display:flex><span>  sudo systemctl restart docker
+</span></span><span style=display:flex><span>  sudo systemctl enable docker
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>  sudo systemctl status docker
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n add user to docker group\n&#34;</span>
+</span></span><span style=display:flex><span>  sudo usermod -aG docker <span style=color:#e6db74>${</span>USER<span style=color:#e6db74>}</span>
+</span></span><span style=display:flex><span>  sleep <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>  echo -e <span style=color:#e6db74>&#34;\n done\n&#34;</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Install Portainer</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker run -d <span style=color:#ae81ff>\
 </span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>   -p 8000:8000 <span style=color:#ae81ff>\
 </span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>   -p 9443:9443 <span style=color:#ae81ff>\
 </span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>   --name <span style=color:#66d9ef>do</span>-portainer <span style=color:#ae81ff>\
