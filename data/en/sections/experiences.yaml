@@ -26,14 +26,16 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Modernized 6-year-old on-premise infrastructure, implementing pfSense BSD Firewall and bandwidth management for 100+ devices, resolving operational bandwidth issues.
-    - Negotiated 30% cost savings on IT asset purchases, resulting in significant company savings, demonstrated by a recent 1 million peso purchase in 2022.
-    - Collaborated with DevOps to transform 30-year-old infrastructure, migrating from Sun Microsystems to Linux and introducing innovative technologies.
-    - Enhanced monitoring by adding hardware resource tracking and alerting, leveraging Icinga and Prometheus alongside Zabbix.
-    - Introduced virtualization, repurposing underutilized resources and migrating to Proxmox Cluster with CEPH Cluster storage.
-    - Migrated from traditional Puppet to Infrastructure-as-Code (IaaC) using Terraform, Ansible, and Git, streamlining infrastructure management.
-    - Upgraded remote access from Poor Man's VPN to OpenVPN, addressing limitations and improving security.
-    - Upgraded High Sierra Mac minis to Ventura, switching to VMware Fusion for improved virtual machine creation and resource efficiency on MacOS.
+    - Revitalized a 6-year-old on-premise infrastructure by deploying pfSense BSD Firewall and bandwidth management, resolving operational bandwidth issues for over 100 devices.
+    - Successfully negotiated a 30% cost reduction on IT asset purchases, resulting in substantial company savings, as evident from a recent 1 million peso purchase in 2022.
+    - Collaborated with global DevOps teams to modernize 30-year-old infrastructure, migrating from Sun Microsystems to Linux and introducing cutting-edge technologies.
+    - Amplified monitoring capabilities by integrating hardware resource tracking and alerting using Icinga, Prometheus, and Zabbix.
+    - Streamlined infrastructure management by transitioning from traditional Puppet to Infrastructure-as-Code (IaaC) using Terraform, Ansible, Git, and GitLab.
+    - Spearheaded the migration of Ubuntu MaaS cluster and Monolith Baremetal Design to Proxmox Cluster with CEPH Cluster, and created a Kubernetes Cluster with MetalLB and Nginx Ingress on Proxmox Cluster.
+    - Effectively managed applications on Azure and Kubernetes Cluster on AWS.
+    - Upgraded remote access from Poor Man's VPN to OpenVPN, addressing limitations and enhancing security.
+    - Introduced a suite of new infrastructure tools, including IPA for DNS and SSO, IPAM for IP tracking, Nginx Proxy Manager, Guacamole, Netbox, and Portainer, on the air-gapped network.
+    - Successfully upgraded High Sierra Mac minis to Ventura, adopting VMware Fusion for improved virtual machine creation and resource efficiency on MacOS.
 
 
 - company:
