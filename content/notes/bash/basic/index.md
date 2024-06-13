@@ -39,14 +39,15 @@ fi
 
 ```bash
 #!/bin/bash
-  echo -e "\n----------------------------------- update packages\n"
+
+  echo -e "\n update packages\n"
   sudo apt update -y && sudo apt upgrade -y
   sleep 5
-  echo -e "\n----------------------------------- update timezone\n"
+  echo -e "\n update timezone\n"
   sudo timedatectl set-timezone Asia/Manila
   date
   sleep 3
-  echo -e "\n----------------------------------- install qemu agent\n"
+  echo -e "\n install qemu agent\n"
   sudo apt install qemu-guest-agent -y
   sleep 2
   sudo systemctl enable qemu-guest-agent
@@ -54,7 +55,7 @@ fi
   sudo systemctl restart qemu-guest-agent
   sleep 2
   sudo systemctl status qemu-guest-agent
-  echo -e "\n----------------------------------- done\n"
+  echo -e "\n done\n"
 ```
 
 {{< /note >}}
@@ -65,26 +66,26 @@ fi
 ```bash
 #!/bin/bash
 
-  echo -e "\n----------------------------------- install docker dependencies\n"
+  echo -e "\n install docker dependencies\n"
   sudo apt install apt-transport-https ca-certificates curl software-properties-common -y 
   sleep 5
-  echo -e "\n----------------------------------- add GPG Key\n"
+  echo -e "\n add GPG Key\n"
   sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
   sleep 5
-  echo -e "\n----------------------------------- add docker repository\n"
+  echo -e "\n add docker repository\n"
   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   sleep 5
-  echo -e "\n----------------------------------- install docker-ce\n"
+  echo -e "\n install docker-ce\n"
   sudo apt install docker-ce -y
   sudo systemctl restart docker
   sudo systemctl enable docker
   sleep 3
   sudo systemctl status docker
   sleep 3
-  echo -e "\n----------------------------------- add user to docker group\n"
+  echo -e "\n add user to docker group\n"
   sudo usermod -aG docker ${USER}
   sleep 3
-  echo -e "\n----------------------------------- done\n"
+  echo -e "\n done\n"
 ```
 
 {{< /note >}}
