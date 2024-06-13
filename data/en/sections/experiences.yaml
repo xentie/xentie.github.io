@@ -71,10 +71,26 @@ experiences:
     start: June 2015
     end: January 2016
     responsibilities:
-    - Managed a total of 32 staffs and four (4) Team Leads, from L1 to L4 Support across all Cebu Sites, promoted 9 staffs to the next level and just recently hired an additional 11 sub-contractors for L1 Support as bonus for Cebu’s steady growth, performance and cost saving, supporting almost five thousand (5000) seats.
-    - Spearheaded the IT Asset Team and working closely with the Business Operations Manager to review current and forecast IT Assets supply and demand, successfully oversaw the monthly required IT Assets for the past two quarters with a 10% buffer.
-    - Solved inherited year old issues from previous management and diligently resolved 90% of the problems on my first quarter by re-introducing SCRUM Meetings, constant coaching and daily performance check with accordance with the company’s policy.
-    - Lifted and launched a new IT Asset compliance percent rate target (99%), from the previous management rating of 97.81% to 98.37% to a monthly average of 99.19% to 99.46%, completed in spite the lack of manpower during my first quarter (L1 Support is to Seats Ratio of 1:500 from the standard ratio of 1:250).
+    Leadership and Team Management
+
+      - Successfully managed a team of 32 staff members and 4 Team Leads across all Cebu sites, spanning L1 to L4 Support levels
+      - Achieved a promotion rate of 28% (9 staff members) to the next level, and hired 11 additional sub-contractors for L1 Support as a bonus for Cebu's steady growth, performance, and cost savings
+      - Supported a large user base of almost 5,000 seats
+
+    IT Asset Management
+
+      - Led the IT Asset Team in collaboration with the Business Operations Manager to review and forecast IT Assets supply and demand
+      - Successfully oversaw the monthly required IT Assets for two consecutive quarters, maintaining a 10% buffer
+
+    Problem-Solving and Process Improvement
+
+      - Inherited year-old issues from previous management and resolved 90% of them within the first quarter
+      - Implemented SCRUM Meetings, coaching, and daily performance checks to ensure compliance with company policies
+
+    IT Asset Compliance
+
+      - Set and achieved a new IT Asset compliance target rate of 99%, improving from the previous management's rating of 97.81% to 98.37%, and eventually reaching a monthly average of 99.19% to 99.46%
+      - Successfully completed this feat despite the lack of manpower during the first quarter, with an L1 Support to Seats Ratio of 1:500 (compared to the standard ratio of 1:250)
 
 - company:
     name: IBM
@@ -89,18 +105,29 @@ experiences:
     start: August 2013
     end: July 2015
     responsibilities:
-    - Manage a team of Librarians in Mexico and Philippines,
-    - Collaborate with different team members in Mexico, Philippines, China, US and Europe,
-    - Deployment Lead and focal person for application releases from test to production, create change tickets and coordinate with other install teams
-    - Responsible for promoting/compiling/binding application code, change management, and also security administrator for another project. AIX, Linux, MVS, Jenkins, and Websphere
-    - Manage code versions in Rational Team Concert
-    - Manage requirements, defects, tasks, and track build items in Rational Team Concert
-    - Run weekly change control meeting to check "Old Business" -a review of the past week's promotes and follow-up issues- and “New Business” -a review of current promotion requests and new issues,
-    - Complete all code deployment requests on RTC, checking out code from Code Library to System Test, UAT and Production nodes for EXPRS, CPE, SPIW, TPF, and ISC/IW SC Reporting applications.
-    - Deploy documentation (ASCA docs, design docs, test cases, guides, librarian docs) to EPPS Online Doc.
-    - For cutovers, promoting code from System Test to UAT or from UAT to Production. (EXPRS,CPE, TPF, SPIW applications)
-    - Update / Maintain password list for librarian id's on all EXPRS, CPE, TPF, SPIW, for development, system test, UAT, and production nodes.
-    - On call / site support for monthly CPE / EXPRS run and whenever the developers/project required
-    - Install/Update ESAT engine as well as webPUBLISH on all nodes.
-    - Setup new boxes as they come in (filesystems, id's, groups, directories, security).
-    - Provided Lifecycle support for Demand Management
+    Team Management and Collaboration
+
+      - Led a team of librarians in Mexico and the Philippines, ensuring effective collaboration and communication.
+      - Worked closely with cross-functional teams in Mexico, Philippines, China, US, and Europe to achieve shared goals.
+
+    Deployment and Release Management
+
+      - Served as Deployment Lead, overseeing the release of applications from testing to production, creating change tickets, and coordinating with installation teams.
+      - Managed the promotion, compilation, and binding of application code, ensuring change management and security administration for multiple projects.
+
+    Technical Expertise
+
+      - Utilized AIX, Linux, MVS, Jenkins, and Websphere to manage code versions, requirements, defects, and tasks in Rational Team Concert.
+      - Demonstrated expertise in managing code deployment requests, checking out code from the Code Library to various nodes, and deploying documentation to EPPS Online Doc.
+
+    Change Management and Support
+
+      - Facilitated weekly change control meetings to review past promotions, follow-up issues, and new promotion requests.
+      - Provided on-call/site support for monthly CPE/EXPRS runs and as needed by developers and projects.
+      - Installed and updated ESAT engine and webPUBLISH on all nodes, and set up new boxes with necessary configurations.
+
+    Additional Responsibilities
+
+      - Maintained password lists for librarian IDs on all nodes.
+      - Performed cutover promotions from System Test to UAT or from UAT to Production for various applications.
+      - Offered lifecycle support for Demand Management.
