@@ -26,9 +26,15 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Overhaul and Re-design their 11 Year old IT Infrastructure
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Modernized 6-year-old on-premise infrastructure, implementing pfSense BSD Firewall and bandwidth management for 100+ devices, resolving operational bandwidth issues.
+    - Negotiated 30% cost savings on IT asset purchases, resulting in significant company savings, demonstrated by a recent 1 million peso purchase in 2022.
+    - Collaborated with DevOps to transform 30-year-old infrastructure, migrating from Sun Microsystems to Linux and introducing innovative technologies.
+    - Enhanced monitoring by adding hardware resource tracking and alerting, leveraging Icinga and Prometheus alongside Zabbix.
+    - Introduced virtualization, repurposing underutilized resources and migrating to Proxmox Cluster with CEPH Cluster storage.
+    - Migrated from traditional Puppet to Infrastructure-as-Code (IaaC) using Terraform, Ansible, and Git, streamlining infrastructure management.
+    - Upgraded remote access from Poor Man's VPN to OpenVPN, addressing limitations and improving security.
+    - Upgraded High Sierra Mac minis to Ventura, switching to VMware Fusion for improved virtual machine creation and resource efficiency on MacOS.
+
 
 - company:
     name: Webqem
@@ -43,20 +49,35 @@ experiences:
     start: January 2016
     end: June 2022
     responsibilities:
-    - Manages and monitors the 250~300 nodes (webhosting, in-house, applications) 
-    - Spearheaded the backup and restoration solution of all the nodes (windows and linux) using Bacula, Duplicity and rsnapshot.
-    - Provides Technical Support for code deployments from TEST to UAT to PROD.
-    - Monitor server updates and tests application updates on a controlled environment.
-    - Provides on-call support (24/7) for any backup and restoration JIRA ticket requests
-    - Documents new discoveries and steps on Confluence
-    - Collaborated with Sales and Production teams for client tickets relating to server upgrades and/or adding value added services.
-    - Babysitting tickets support, inquiries and consultations with beyond standards, fulfilling and exceeding client's expectations.
-    - Deploy new nodes on cloud, digital ocean, aws, vultr and in-house xenservers.
-    - Deploys/roll-out changes via puppet
-    - Creates custom puppet modules for server tasks that requires all and/or selected nodes.
-    - Monitors nodes via Nagios and Icinga
-    - Collaborated with Client's developers and/or IT Team in realizing plans and blueprints.
-    - Maintain Servers running on Ubuntu, CentOS, Debian, Windows hosted on data center, office nodes, Digital Ocean, VPSBlocks, Vultr and AWS.
+    - Infrastructure Management
+      <br />- Oversee and monitor a fleet of 250-300 nodes, including web hosting, in-house, and application servers
+
+    - Backup and Restoration
+      <br />- Led the implementation of a comprehensive backup and restoration solution using Bacula, Duplicity, and rsnapshot, ensuring data integrity across all nodes (Windows and Linux)
+
+    - Technical Support
+      <br />- Provide expert technical support for code deployments from testing to production environments
+      <br />- Conduct thorough testing of application updates in a controlled environment to ensure seamless deployment
+
+    - Server Management
+      <br />- Monitor and implement server updates, ensuring optimal performance and security
+      <br />- Offer 24/7 on-call support for backup and restoration requests, resolving JIRA tickets promptly
+
+    - Documentation and Knowledge Sharing
+      <br />- Document new discoveries, steps, and best practices on Confluence, promoting knowledge sharing and collaboration
+
+    - Collaboration and Client Support
+      <br />- Work closely with Sales and Production teams to address client tickets related to server upgrades and value-added services
+      <br />- Deliver exceptional support, exceeding client expectations, and providing timely resolutions to tickets, inquiries, and consultations
+
+    - Cloud and Automation
+      <br />- Deploy new nodes on various cloud platforms, including Digital Ocean, AWS, Vultr, and in-house XenServers
+      <br />- Utilize Puppet for deploying and rolling out changes, and create custom modules for server tasks that require automation across all or selected nodes
+
+    - Monitoring and Maintenance
+      <br />- Monitor node performance and health using Nagios and Icinga
+      <br />- Collaborate with clients' developers and IT teams to realize plans and blueprints
+      <br />- Maintain a diverse range of servers, including Ubuntu, CentOS, Debian, and Windows, hosted on various platforms, including data centers, office nodes, and cloud providers
 
 - company:
     name: Accenture
@@ -71,26 +92,22 @@ experiences:
     start: June 2015
     end: January 2016
     responsibilities:
-    Leadership and Team Management:
+    - Leadership and Team Management
+      <br />- Successfully managed a team of 32 staff members and 4 Team Leads across all Cebu sites, spanning L1 to L4 Support levels
+      <br />- Achieved a promotion rate of 28% (9 staff members) to the next level, and hired 11 additional sub-contractors for L1 Support as a bonus for Cebu's steady growth, performance, and cost savings
+      <br />- Supported a large user base of almost 5,000 seats
 
-      - Successfully managed a team of 32 staff members and 4 Team Leads across all Cebu sites, spanning L1 to L4 Support levels
-      - Achieved a promotion rate of 28% (9 staff members) to the next level, and hired 11 additional sub-contractors for L1 Support as a bonus for Cebu's steady growth, performance, and cost savings
-      - Supported a large user base of almost 5,000 seats
+    - IT Asset Management
+      <br />- Led the IT Asset Team in collaboration with the Business Operations Manager to review and forecast IT Assets supply and demand
+      <br />- Successfully oversaw the monthly required IT Assets for two consecutive quarters, maintaining a 10% buffer
 
-    IT Asset Management:
+    - Problem-Solving and Process Improvement
+      <br />- Inherited year-old issues from previous management and resolved 90% of them within the first quarter
+      <br />- Implemented SCRUM Meetings, coaching, and daily performance checks to ensure compliance with company policies
 
-      - Led the IT Asset Team in collaboration with the Business Operations Manager to review and forecast IT Assets supply and demand
-      - Successfully oversaw the monthly required IT Assets for two consecutive quarters, maintaining a 10% buffer
-
-    Problem-Solving and Process Improvement:
-
-      - Inherited year-old issues from previous management and resolved 90% of them within the first quarter
-      - Implemented SCRUM Meetings, coaching, and daily performance checks to ensure compliance with company policies
-
-    IT Asset Compliance:
-
-      - Set and achieved a new IT Asset compliance target rate of 99%, improving from the previous management's rating of 97.81% to 98.37%, and eventually reaching a monthly average of 99.19% to 99.46%
-      - Successfully completed this feat despite the lack of manpower during the first quarter, with an L1 Support to Seats Ratio of 1:500 (compared to the standard ratio of 1:250)
+    - IT Asset Compliance
+      <br />- Set and achieved a new IT Asset compliance target rate of 99%, improving from the previous management's rating of 97.81% to 98.37%, and eventually reaching a monthly average of 99.19% to 99.46%
+      <br />- Successfully completed this feat despite the lack of manpower during the first quarter, with an L1 Support to Seats Ratio of 1:500 (compared to the standard ratio of 1:250)
 
 - company:
     name: IBM
@@ -105,29 +122,56 @@ experiences:
     start: August 2013
     end: July 2015
     responsibilities:
-    Team Management and Collaboration:
+    - Team Management and Collaboration
+      <br />- Led a team of librarians in Mexico and the Philippines, ensuring effective collaboration and communication.
+      <br />- Worked closely with cross-functional teams in Mexico, Philippines, China, US, and Europe to achieve shared goals.
 
-      - Led a team of librarians in Mexico and the Philippines, ensuring effective collaboration and communication.
-      - Worked closely with cross-functional teams in Mexico, Philippines, China, US, and Europe to achieve shared goals.
+    - Deployment and Release Management
+      <br />- Served as Deployment Lead, overseeing the release of applications from testing to production, creating change tickets, and coordinating with installation teams.
+      <br />- Managed the promotion, compilation, and binding of application code, ensuring change management and security administration for multiple projects.
+    
+    - Technical Expertise
+      <br />- Utilized AIX, Linux, MVS, Jenkins, and Websphere to manage code versions, requirements, defects, and tasks in Rational Team Concert.
+      <br />- Demonstrated expertise in managing code deployment requests, checking out code from the Code Library to various nodes, and deploying documentation to EPPS Online Doc.
+    
+    - Change Management and Support
+      <br />- Facilitated weekly change control meetings to review past promotions, follow-up issues, and new promotion requests.
+      <br />- Provided on-call/site support for monthly CPE/EXPRS runs and as needed by developers and projects.
+      <br />- Installed and updated ESAT engine and webPUBLISH on all nodes, and set up new boxes with necessary configurations.
+    
+    - Additional Responsibilities
+      <br />- Maintained password lists for librarian IDs on all nodes.
+      <br />- Performed cutover promotions from System Test to UAT or from UAT to Production for various applications.
+      <br />- Offered lifecycle support for Demand Management.
 
-    Deployment and Release Management:
+- company:
+    name: TheTMSway
+    url: "https://www.tmsway.com"
+    location: Cebu City, Philippines
+    logo: /images/sections/experiences/company3.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: TheTMSway provide a cloud based platform of services for mobile marketing and commerce and an innovative technology to promote mobile offers as direct extension of traditional advertising campaigns. 
+  positions:
+  - designation: IT Infrastructure Team Lead
+    start: June 2010
+    end: August 2013
+    responsibilities:
+    - Server and Network Infrastructure Management
+      <br />- Oversee server implementation, maintenance, and monitoring of leased line circuit
+      <br />- Administer CISCO 1800/1900 routers for reliable network connectivity
+      <br />- Troubleshoot and resolve network connection issues
+      <br />- Manage server and workstation installations/updates
+      <br />- Remotely troubleshoot Hong Kong servers via SSH
 
-      - Served as Deployment Lead, overseeing the release of applications from testing to production, creating change tickets, and coordinating with installation teams.
-      - Managed the promotion, compilation, and binding of application code, ensuring change management and security administration for multiple projects.
+    - Infrastructure Optimization and Development
 
-    Technical Expertise:
-
-      - Utilized AIX, Linux, MVS, Jenkins, and Websphere to manage code versions, requirements, defects, and tasks in Rational Team Concert.
-      - Demonstrated expertise in managing code deployment requests, checking out code from the Code Library to various nodes, and deploying documentation to EPPS Online Doc.
-
-    Change Management and Support:
-
-      - Facilitated weekly change control meetings to review past promotions, follow-up issues, and new promotion requests.
-      - Provided on-call/site support for monthly CPE/EXPRS runs and as needed by developers and projects.
-      - Installed and updated ESAT engine and webPUBLISH on all nodes, and set up new boxes with necessary configurations.
-
-    Additional Responsibilities:
-
-      - Maintained password lists for librarian IDs on all nodes.
-      - Performed cutover promotions from System Test to UAT or from UAT to Production for various applications.
-      - Offered lifecycle support for Demand Management.
+      <br />- Spearheaded the development of a new software development flow and infrastructure, resulting in a significant boost to developer performance and productivity.
+        <br />- Implemented Single Sign-On (SSO) across multiple platforms, including WiKi, FTP, Email, Redmine, and Git, enhancing user experience and security.
+        <br />- Successfully migrated email server from RHE to FreeBSD with LDAP backend, improving email management and security.
+        <br />- Consolidated four RHE servers in RackSpace into a single FreeBSD server with JAIL virtualization, reducing monthly hosting costs and increasing server efficiency and web application performance.
+        <br />- Upgraded web infrastructure by replacing Apache with NGINX and PHP-FPM with NGINX Reverse Proxy as a load balancer, enhancing website performance and scalability.
+        <br />- Established an in-house web server for testing and development, streamlining the deployment process to HK servers.
+        <br />- Configured and optimized a streaming server in HK using Darwin, running on RHE and FreeBSD, to ensure seamless content delivery.
+        <br />- Managed virtual hosts and domains, ensuring efficient domain management and organization.
+        <br />- Optimized web servers using eAccelerator and memcache, resulting in improved website performance and responsiveness.
