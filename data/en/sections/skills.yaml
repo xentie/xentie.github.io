@@ -23,7 +23,7 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure, Oracle Cloud etc."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg

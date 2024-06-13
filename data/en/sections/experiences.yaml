@@ -11,63 +11,67 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Rakuten Securities Inc.
+    url: "https://global.rakuten.com/corp/innovation/tag/30-183/"
+    location: Tokyo, Japan
     logo: /images/sections/experiences/company1.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Rakuten Securities Inc. operates as a financial firm offering various brokerage and securities services. The Company offers the purchase, sales, and brokerage of securities throughout the world.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Senior Devops Engineer
+    start: July 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
+    - Overhaul and Re-design their 11 Year old IT Infrastructure
     - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
     - Lead backend team.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
+    name: Webqem
+    url: "https://www.webqem.com"
+    location: Neutral Bay, NSW, Australia
     logo: /images/sections/experiences/company2.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Webqem is a collective of Sydney-based strategists, creatives and geeks with a history of excellence in web design, development and digital strategy. Our work spans international corporations to small businesses and not-for-profit organisations; across strategy, creative, IT, and marketing; for over seventeen years and ten thousand individual projects.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Devops Engineer
+    start: January 2016
+    end: June 2022
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Manages and monitors the 250~300 nodes (webhosting, in-house, applications) 
+    - Spearheaded the backup and restoration solution of all the nodes (windows and linux) using Bacula, Duplicity and rsnapshot.
+    - Provides Technical Support for code deployments from TEST to UAT to PROD.
+    - Monitor server updates and tests application updates on a controlled environment.
+    - Provides on-call support (24/7) for any backup and restoration JIRA ticket requests
+    - Documents new discoveries and steps on Confluence
+    - Collaborated with Sales and Production teams for client tickets relating to server upgrades and/or adding value added services.
+    - Babysitting tickets support, inquiries and consultations with beyond standards, fulfilling and exceeding client's expectations.
+    - Deploy new nodes on cloud, digital ocean, aws, vultr and in-house xenservers.
+    - Deploys/roll-out changes via puppet
+    - Creates custom puppet modules for server tasks that requires all and/or selected nodes.
+    - Monitors nodes via Nagios and Icinga
+    - Collaborated with Client's developers and/or IT Team in realizing plans and blueprints.
+    - Maintain Servers running on Ubuntu, CentOS, Debian, Windows hosted on data center, office nodes, Digital Ocean, VPSBlocks, Vultr and AWS.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
+    name: Accenture
+    url: "https://www.accenture.com"
+    location: Cebu City, Philippines
     logo: /images/sections/experiences/company3.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Accenture plc is a US multinational professional services company headquartered in Dublin for tax reasons, specializing in information technology services and consulting. A Fortune Global 500 company, it reported revenues of $64.1 billion in 2023.
   positions:
-  - designation: Intern
+  - designation: IT Operations Manager and Infrastructure Account Manager
     start: Jun 2015
     end: Jan 2016
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Managed a total of 32 staffs and four (4) Team Leads, from L1 to L4 Support across all Cebu Sites, promoted 9 staffs to the next level and just recently hired an additional 11 sub-contractors for L1 Support as bonus for Cebu’s steady growth, performance and cost saving, supporting almost five thousand (5000) seats.
+    - Spearheaded the IT Asset Team and working closely with the Business Operations Manager to review current and forecast IT Assets supply and demand, successfully oversaw the monthly required IT Assets for the past two quarters with a 10% buffer.
+    - Solved inherited year old issues from previous management and diligently resolved 90% of the problems on my first quarter by re-introducing SCRUM Meetings, constant coaching and daily performance check with accordance with the company’s policy.
+    - Lifted and launched a new IT Asset compliance percent rate target (99%), from the previous management rating of 97.81% to 98.37% to a monthly average of 99.19% to 99.46%, completed in spite the lack of manpower during my first quarter (L1 Support is to Seats Ratio of 1:500 from the standard ratio of 1:250).
