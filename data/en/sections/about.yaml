@@ -8,29 +8,29 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Sr Devops Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Rakuten Securities Inc.
+  url: "https://global.rakuten.com/corp/innovation/tag/30-183/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "With over 25 years of industry expertise, I bring a unique blend of technical expertise and industry-agnostic knowledge to the table, with a proven track record of success across multiple sectors, including Fintech, Telecom, IT Services, and more. My strengths lie in my ability to rapidly adapt to new challenges, lead teams to success, and deliver high-quality results with unwavering enthusiasm and motivation. My unstoppable work ethic and focus on achieving desired outcomes drive me to excel. As a seasoned IT professional, I excel in deployment management, systems and network administration, and operating system expertise, with a strong background in Unix, zLinux, Linux, and *BSD. I've successfully set up an ISP from the ground up and have a proven ability to build, package, and deploy application code releases from test to production rollout. With strong soft skills to match my technical expertise, I thrive in fast-paced environments, communicating effectively and collaborating seamlessly with teams to meet deadlines and resolve technical issues. I'm passionate about staying ahead of the curve, embracing new technologies and trends, and continuously developing my skills to deliver exceptional results."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "michael@diores.org"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/xentie"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
@@ -38,7 +38,7 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/mdiores/"
 
 - name: Twitter
   icon: "fab fa-twitter"
@@ -46,7 +46,7 @@ socialLinks:
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
+  url: "https://www.facebook.com/xentie"
 
 - name: Mastadon
   icon: "fab fa-mastodon"
@@ -55,7 +55,7 @@ socialLinks:
 
 - name: ResearchGate
   icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  url: "https://www.researchgate.net/profile/michael-diores"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
