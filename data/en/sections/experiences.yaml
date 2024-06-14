@@ -14,7 +14,7 @@ experiences:
     name: Rakuten Securities Inc.
     url: "https://global.rakuten.com/corp/innovation/tag/30-183/"
     location:  Setagaya, Tokyo, Japan
-    logo: /images/sections/experiences/company1.jpg
+    logo: /images/sections/experiences/company-rakuten-securities.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
@@ -45,7 +45,7 @@ experiences:
     name: Webqem
     url: "https://www.webqem.com"
     location: Neutral Bay, NSW, Australia
-    logo: /images/sections/experiences/company2.jpg
+    logo: /images/sections/experiences/company-webqem.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
     overview: Webqem is a collective of Sydney-based strategists, creatives and geeks with a history of excellence in web design, development and digital strategy. Our work spans international corporations to small businesses and not-for-profit organisations; across strategy, creative, IT, and marketing; for over seventeen years and ten thousand individual projects.
@@ -88,7 +88,7 @@ experiences:
     name: Accenture
     url: "https://www.accenture.com"
     location: Cebu City, Philippines
-    logo: /images/sections/experiences/company3.jpg
+    logo: /images/sections/experiences/company-accenture.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: Accenture plc is a US multinational professional services company headquartered in Dublin for tax reasons, specializing in information technology services and consulting. A Fortune Global 500 company, it reported revenues of $64.1 billion in 2023.
@@ -118,7 +118,7 @@ experiences:
     name: IBM
     url: "https://www.ibm.com"
     location: Cebu City, Philippines
-    logo: /images/sections/experiences/company3.jpg
+    logo: /images/sections/experiences/company-ibm.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: International Business Machines Corporation, nicknamed Big Blue, is an American multinational technology company headquartered in Armonk, New York and present in over 175 countries. 
@@ -153,7 +153,7 @@ experiences:
     name: TheTMSway
     url: "https://www.tmsway.com"
     location: Cebu City, Philippines
-    logo: /images/sections/experiences/company3.jpg
+    logo: /images/sections/experiences/company-thetmsway.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: TheTMSway provide a cloud based platform of services for mobile marketing and commerce and an innovative technology to promote mobile offers as direct extension of traditional advertising campaigns. 
